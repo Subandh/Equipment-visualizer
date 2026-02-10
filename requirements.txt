@@ -1,0 +1,16 @@
+# Combined requirements for the project (backend + desktop frontend)
+# Backend: Django project (settings note: Django 5.2.11)
+Django==5.2.11
+djangorestframework
+django-cors-headers
+pandas
+Pillow
+
+# Desktop frontend / utilities
+PyQt5==5.15.11
+matplotlib==3.9.0
+requests==2.32.3
+reportlab==4.2.2
+
+# Optional / recommend installing in virtualenv for production
+# gunicorn
